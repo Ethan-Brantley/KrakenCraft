@@ -1,0 +1,107 @@
+.section
+{
+
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+h1 {
+
+    font-family: 'Helvetica';
+    font-size: 3.5em;
+
+}
+
+h2 {
+
+    font-size: 3em;
+
+}
+
+p {
+
+    padding: 25px;
+    font-size: 2.5em;
+
+}
+
+.medium {
+
+    font-size: 3em;
+
+}
+
+.center {
+
+    text-align: center;
+
+}
+
+#splash-text
+{
+    text-align: center;
+    width: 50%;
+    padding: 4%;
+    position: absolute;
+    bottom: 46%;
+    left: 25%;
+
+    line-height: 2.5em;
+    font-size: 1.2em;
+}
+
+.light-text {
+
+    font-family: 'Helvetica';
+    color: white;
+}
+
+.quote {
+
+    padding-top: 50vh;
+    padding-bottom: 10px;
+    font-size: 3em;
+    text-align: center;
+
+}
+
+.static-card {
+
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+    padding: 100px;
+    padding-top: 100px;
+
+}
+
+.static-card h2 {
+
+    font-size: 3em;
+    text-align: center;
+
+}
+
+/*
+ *
+ * Footer Styling
+ *
+ */
+
+ #footer {
+
+    position:absolute;
+    width: 100vw;
+    min-height: 100px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 70px 0 70px 0;
+
+ }
