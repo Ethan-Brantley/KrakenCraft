@@ -1,7 +1,13 @@
+html, body {
+
+    height: 100%;
+
+}
+
 .section
 {
 
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
