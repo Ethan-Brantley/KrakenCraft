@@ -3,12 +3,11 @@
 
     height: 100vh;
 
-    background-attachment: fixed;
+    background-attachment:scroll;
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
-    transform: scale(1.0);
-    transition: height 0.5s linear;
+
 }
 
 h1 {
