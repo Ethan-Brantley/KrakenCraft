@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script type="text/javascript">
+            function redirect() {
+                if(screen.width >= 1024) {
+                    window.location.assign("under_construction.html");
+                }
+            }
+
+            /* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("nav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("nav").style.width = "0%";
+}
+        </script>
+    </head>
+
+    <body onload="setTimeout('redirect()', 300)">
+
+        <div id="nav" class="overlay">
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="explore.html">Explore</a>
+                <a href="story.html">Story</a>
+                <a href="updates.html">Updates</a>
+            </div>
+        </div>
+
+        <div id="top-bar">
+            KrakenCraft
+            <span onclick="openNav()" class="openBtn"><i class="fa fa-bars"></i></span>
+        </div>
+        
+
+        <footer id="footer">
+            <p>&copy; Krakencraft 2021</p>
+        </footer>
+    </body>
+</html>
