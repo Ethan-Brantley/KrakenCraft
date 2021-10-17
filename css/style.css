@@ -1,90 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
-.section
-{
+/*
+ *
+ * Global Styling
+ *
+ */
 
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-    background-attachment: fixed;
+body {
 
-}
-
-h1 {
-
-    font-family: 'Helvetica';   
-    font-size: 3.5em;
-
-}
-
-h2 {
-
-    font-size: 3em;
-
-}
-
-p {
-
-    padding: 25px;
     font-size: 2.5em;
-
-}
-
-.medium {
-
-    font-size: 3em;
-
-}
-
-.center {
-
-    text-align: center;
-
-}
-
-#splash-text
-{
-    text-align: center;
-    width: 50%;
-    padding: 4%;
-    position: absolute;
-    bottom: 46%;
-    left: 25%;
-
-    line-height: 2.5em;
-    font-size: 1.2em;
-}
-
-.light-text {
-
-    font-family: 'Helvetica';
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
-}
-
-.quote {
-
-    padding-top: 50vh;
-    padding-bottom: 10px;
-    font-size: 3em;
-    text-align: center;
 
 }
 
-.static-card {
+/*
+ *
+ * Header and Navigation Styling
+ *
+ */
 
-    width: 100%;
-    min-height: 100vh;
+ #top-bar {
+
     background-color: black;
-    padding: 100px;
-    padding-top: 100px;
+    padding: 50px;
+    text-align: left;
 
+
+
+ }
+
+ .openBtn {
+
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    z-index: 0;
+
+ }
+
+ .overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  /* Position the close button (top right corner) */
+  .overlay .closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+/*
+ *
+ * Content Styling
+ *
+ */
+
+.banner {
+
+    display: block;
+    
 }
 
-.static-card h2 {
-
-    font-size: 3em;
-    text-align: center;
-
+.card {
+    display: block;
+    height: 1000px;
+    background-color: white;
 }
 
 /*
@@ -95,14 +121,13 @@ p {
 
  #footer {
 
-    position:absolute;
-    width: 100vw;
-    min-height: 100px;
-    color: white;
+    position: absolute;
+    width: 100%;
+    min-width: 200px;
+    padding: 50px;
     background-color: black;
+    color: white;
     text-align: center;
-    display: block;
     margin: auto;
-    padding: 70px 0 70px 0;
 
  }
