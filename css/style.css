@@ -181,7 +181,8 @@ h2 {
 
 .characterCard {
 
-    display: flex;
+    display: block;
+    min-height: 400px;
     color: black;
     width: 100%;
     border: 2px solid black;
@@ -190,19 +191,23 @@ h2 {
 
 .characterIcon {
 
-    display: inline;
+    float: left;
+    height: 400px;
 
 }
 
 .chr-name {
 
     padding-top: 40px;
+    font-size: 25px;
     
     
 }
 
 .chr-bio {
 
+    text-indent: 4em;
+    font-size: 15px;
 
 }
 
