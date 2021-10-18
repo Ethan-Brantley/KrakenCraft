@@ -190,14 +190,16 @@ h2 {
 
 .card1 {
     display: block;
-    height: 1000px;
+    min-height: 1000px;
+    padding: 25px;
     background-color: black;
     color: white;
 }
 
 .card2 {
     display: block;
-    height: 1000px;
+    min-height: 1000px;
+    padding: 25px;
     background-color: #dedede;
     color: black;
 }
