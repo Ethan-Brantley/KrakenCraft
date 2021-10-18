@@ -67,13 +67,34 @@ body {
  #top-bar {
 
     background-color: black;
-    padding: 50px;
     font-size: 40px;
     text-align: left;
-    height: 160px;
+    height: 180px;
+    position: relative;
 
 
  }
+
+ .logo {
+
+    height: 100px;
+    display: inline;
+    position: absolute;
+    top: 25%;
+    left: 25px;
+
+}
+
+.logo-txt {
+
+    display: inline;
+    padding: 50px 0px;
+    margin: 0;
+    top: 10%;
+    left: 200px;
+    position: absolute;
+
+}
 
  .openBtn {
 
