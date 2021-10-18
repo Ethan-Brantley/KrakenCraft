@@ -179,6 +179,33 @@ h2 {
     color: black;
 }
 
+.characterCard {
+
+    display: flex;
+    color: black;
+    width: 100%;
+    border: 2px solid black;
+
+}
+
+.characterIcon {
+
+    display: inline;
+
+}
+
+.chr-name {
+
+    padding-top: 40px;
+    
+    
+}
+
+.chr-bio {
+
+
+}
+
 /*
  *
  * Footer Styling
