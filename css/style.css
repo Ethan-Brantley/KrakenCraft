@@ -40,9 +40,10 @@ body {
 .info-bar {
 
     width: 100%;
-    min-height: 110px;
-    background-color: green;
-    color: black;
+    min-height: 100px;
+    padding: 15px;
+    background-color: #213454;
+    color: white;
 
 }
 
