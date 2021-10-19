@@ -1,0 +1,49 @@
+/*
+ *
+ * Global Desktop Stylesheet Changes
+ *
+ */
+
+@media only screen and (min-width: 992px) {
+
+    body {
+
+        font-size: 10px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: white;
+    
+    }
+
+    #top-bar {
+
+        background-color: black;
+        font-size: 40px;
+        text-align: left;
+        height: 100px;
+        position: relative;
+    
+    
+     }
+    
+     .logo {
+    
+        height: 50px;
+        display: inline;
+        position: absolute;
+        top: 25%;
+        left: 25px;
+    
+    }
+    
+    .logo-txt {
+    
+        display: inline;
+        padding: 10px 0px;
+        margin: 0;
+        top: 10%;
+        left: 100px;
+        position: absolute;
+    
+    }
+
+}

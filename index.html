@@ -3,15 +3,10 @@
     <head>
         <link rel="stylesheet" href="css/reset.css" type="text/css">
         <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/desktop_style.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <script type="text/javascript">
-            function redirect() {
-                if(screen.width >= 1024) {
-                    window.location.assign("under_construction.html");
-                }
-            }
-
             /* Open when someone clicks on the span element */
 function openNav() {
   document.getElementById("nav").style.width = "100%";
@@ -24,7 +19,7 @@ function closeNav() {
         </script>
     </head>
 
-    <body onload="setTimeout('redirect()', 300)">
+    <body>
 
         <div id="nav" class="overlay">
             <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
