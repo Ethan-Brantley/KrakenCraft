@@ -2,12 +2,20 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/reset.css" type="text/css">
-        <link rel="stylesheet" href="/css/flickity.css" media="screen">
         <link rel="stylesheet" href="css/style.css" type="text/css">
         <link rel="stylesheet" href="css/desktop_style.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
         <script type="text/javascript">
+            $(document).ready(function(){
+                $('.slider').bxSlider({
+                    //how to add own stlying: wrapperClass: 'container'
+                });
+            });
 
             /* Open when someone clicks on the span element */
 function openNav() {
@@ -49,10 +57,12 @@ function closeNav() {
         <div class="card1">
             <h2>KrakenCraft Narrative Survival</h2>
 
-            <div class="carousel js-flickity">
-                <div class="carousel-cell"><img src="images/axolotls.jpg"></div>
-                <div class="carousel-cell"><img src="images/minecraftOfficial.jpg"></div>
-                <div class="carousel-cell"><img src="images/axolotls.jpg"></div>
+            <div class="container">
+                <div class="slider">
+                    <div><img src="images/axolotls.jpg"></div>
+                    <div><img src="images/axolotls.jpg"></div>
+                    <div><img src="images/axolotls.jpg"></div>
+                </div>
             </div>
 
             <div class="pg">
@@ -62,10 +72,12 @@ function closeNav() {
         <div class="card2">
             <h2>Minigames</h2>
 
-            <div class="carousel js-flickity">
-                <div class="carousel-cell"><img src="images/axolotls.jpg"></div>
-                <div class="carousel-cell"><img src="images/minecraftOfficial.jpg"></div>
-                <div class="carousel-cell"><img src="images/axolotls.jpg"></div>
+            <div class="container">
+                <div class="slider">
+                    <div><img src="images/axolotls.jpg"></div>
+                    <div><img src="images/axolotls.jpg"></div>
+                    <div><img src="images/axolotls.jpg"></div>
+                </div>
             </div>
 
             <div class="pg">
@@ -75,10 +87,12 @@ function closeNav() {
         <div class="card1">
             <h2>Enriched Survival</h2>
 
-            <div class="carousel js-flickity">
-                <div class="carousel-cell"><img src="images/axolotls.jpg"></div>
-                <div class="carousel-cell"><img src="images/minecraftOfficial.jpg"></div>
-                <div class="carousel-cell"><img src="images/axolotls.jpg"></div>
+            <div class="container">
+                <div class="slider">
+                    <div><img src="images/axolotls.jpg"></div>
+                    <div><img src="images/axolotls.jpg"></div>
+                    <div><img src="images/axolotls.jpg"></div>
+                </div>
             </div>
 
             <div class="pg">
@@ -100,7 +114,5 @@ function closeNav() {
                 </div>
             </div>
         </footer>
-
-        <script src="js/flickity.pkgd.min.js"></script>
     </body>
 </html>
