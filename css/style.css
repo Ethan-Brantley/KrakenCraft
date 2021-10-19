@@ -170,7 +170,7 @@ body {
 .pg {
 
     font-size: 40px;
-    padding: 10px 75px 10px 72px;
+    padding: 75px 75px 10px 72px;
     text-indent: 2em;
 
 }
@@ -233,6 +233,20 @@ h2 {
 
     text-indent: 4em;
     font-size: 15px;
+
+}
+
+.main-carousel {
+
+    height: 500px;
+    width: 100%;
+
+}
+
+.carousel-cell {
+
+    width: 100%;
+    height: 500px;
 
 }
 
