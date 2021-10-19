@@ -236,6 +236,22 @@ h2 {
 
 }
 
+<<<<<<< HEAD
+=======
+.main-carousel {
+
+    height: 500px;
+    width: 100%;
+
+}
+
+.carousel-cell {
+
+    width: 100%;
+
+}
+
+>>>>>>> parent of f128a24 (Carousel)
 /*
  *
  * Footer Styling
