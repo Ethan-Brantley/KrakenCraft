@@ -37,6 +37,7 @@ body {
  *
  */
 
+
 .info-bar {
 
     width: 100%;
@@ -76,7 +77,7 @@ body {
 
  }
 
- .nav-bar {
+ .desktop-nav-bar {
 
     display: none;
 
