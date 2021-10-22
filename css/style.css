@@ -76,6 +76,12 @@ body {
 
  }
 
+ .nav-bar {
+
+    display: none;
+
+ }
+
  .logo {
 
     height: 100px;

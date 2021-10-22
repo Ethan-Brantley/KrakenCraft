@@ -8,10 +8,41 @@
 
     body {
 
-        font-size: 10px;
+        font-size: 20px;
         font-family:Georgia, 'Times New Roman', Times, serif;
         color: white;
     
+    }
+
+    h2 {
+
+        font-size: 25px;
+        padding: 25px;
+    
+    }
+
+    .pg {
+
+        font-size: 20px;
+        padding: 10px;
+        text-indent: 2em;
+    
+    }
+
+    .card1 {
+        display: block;
+        min-height: 500px;
+        padding: 25px;
+        background-color: black;
+        color: white;
+    }
+    
+    .card2 {
+        display: block;
+        min-height: 500px;
+        padding: 25px;
+        background-color: #dedede;
+        color: black;
     }
 
     #top-bar {
@@ -46,4 +77,67 @@
     
     }
 
+    .openBtn {
+
+        display: none;
+    
+     }
+
+    .desktop-nav-bar {
+
+        display: inline;
+        height: 100px;
+        position: absolute;
+        right: 0;
+        top: -25%;
+
+    }
+
+    .desktop-nav-bar-item {
+
+        display: inline-block;
+        padding-left: 50px;
+        padding-right: 100px;
+
+    }
+
+    .desktop-nav-bar-item a {
+
+        text-decoration: none;
+        color: white;
+        font-size: 0.5em;
+
+    }
+
+    .container {
+
+        height:  1000px;
+        overflow: hidden;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .banner {
+
+        width: 100%;
+        object-fit: cover;
+        object-position: 50% 40%;
+
+    }
+
+/*
+*
+* Desktop Footer Style
+*
+*/
+
+#footer {
+
+    font-size: 20px;
+
+}    
+
 }
+
