@@ -77,6 +77,13 @@ body {
 
  }
 
+ .link {
+
+    padding-left: 13%;
+    color: white;
+
+ }
+
  .desktop-nav-bar {
 
     display: none;
