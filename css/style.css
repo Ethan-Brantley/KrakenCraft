@@ -14,13 +14,6 @@ body {
 
 }
 
-h3 {
-
-    padding-top: 25px;
-    text-align: center;
-
-}
-
 .container {
 
     position: relative;
@@ -193,14 +186,22 @@ h3 {
 
     font-size: 40px;
     padding: 75px 75px 10px 72px;
-    text-indent: 2em;
+    text-indent: 3em;
 
 }
 
 h2 {
 
-    font-size: 50px;
-    padding: 75px;
+    font-size: 75px;
+    text-align: center;
+    padding: 125px 75px;
+
+}
+
+h3 {
+
+    padding-top: 50px;
+    text-align: center;
 
 }
 
@@ -230,6 +231,7 @@ h2 {
 .characterCard {
 
     display: block;
+    padding: 0px 15px;
     min-height: 400px;
     color: black;
     width: 100%;
