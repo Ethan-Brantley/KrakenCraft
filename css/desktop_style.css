@@ -55,15 +55,15 @@
 
     h2 {
 
-        font-size: 40px;
+        font-size: 30px;
         padding: 50px 25px;
     
     }
 
     .pg {
 
-        font-size: 20px;
-        padding: 10px;
+        font-size: 18px;
+        padding: 30px;
         text-indent: 2em;
     
     }
@@ -71,7 +71,7 @@
     .card1 {
         display: block;
         min-height: 500px;
-        padding: 25px;
+        padding: 50px;
         background-color: black;
         color: white;
     }
@@ -150,7 +150,7 @@
 
     .container {
 
-        height:  500px;
+        height:  600px;
         overflow: hidden;
         margin: auto;
         justify-content: center;
