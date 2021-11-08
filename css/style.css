@@ -231,11 +231,17 @@ h3 {
 .characterCard {
 
     display: block;
-    padding: 0px 15px;
-    min-height: 400px;
+    padding: 25px;
+
     color: black;
     width: 100%;
     border-bottom: 1px solid black;
+
+}
+
+.newPlayer {
+
+    min-height: 500px;
 
 }
 
@@ -243,6 +249,14 @@ h3 {
 
     float: left;
     height: 400px;
+
+}
+
+.region-img {
+
+    width: 100%;
+    margin: auto;
+    padding: 20px;
 
 }
 
@@ -256,9 +270,19 @@ h3 {
 
 .chr-bio {
 
+    padding-top: 15px;
     text-indent: 4em;
     font-size: 15px;
 
+}
+
+.chr-player {
+
+    padding: 20px;
+    vertical-align: bottom;
+    font-size: 15px;
+    text-align: right;
+    
 }
 
 /*

@@ -24,9 +24,9 @@
     .characterCard {
 
         display: inline-table;
-        min-height: 600px;
+        min-height: 900px;
         color: black;
-        width: 25%;
+        width: 30%;
         border: 1px solid black;
 
     }
@@ -35,6 +35,12 @@
 
         float: left;
         height: 400px;
+    
+    }
+
+    .region-img {
+
+        width: 70%;
     
     }
 
