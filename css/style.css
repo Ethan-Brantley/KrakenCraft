@@ -228,10 +228,19 @@ h3 {
     color: black;
 }
 
+.charactersList {
+
+    display: table;
+    text-align: center;
+    padding-bottom: 100px;
+    
+}
+
 .characterCard {
 
     display: block;
-    padding: 25px;
+    padding: 50px;
+    min-height: 700px;
     color: black;
     width: 100%;
     border-bottom: 1px solid black;
@@ -261,17 +270,24 @@ h3 {
 
 .chr-name {
 
-    padding-top: 40px;
+    padding-top: 10px;
     font-size: 25px;
     font-weight: bold;
     
     
 }
 
+.dividing-line {
+
+    display: none;
+
+}
+
+
 .chr-bio {
 
     padding-top: 15px;
-    text-indent: 4em;
+    text-indent: 1em;
     font-size: 15px;
 
 }
@@ -279,9 +295,8 @@ h3 {
 .chr-player {
 
     padding: 20px;
-    vertical-align: bottom;
+    text-align: center;
     font-size: 15px;
-    text-align: right;
     
 }
 

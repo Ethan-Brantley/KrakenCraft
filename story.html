@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="css/desktop_style.css" type="text/css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
         <script type="text/javascript">
 
             /* Open when someone clicks on the span element */
@@ -88,74 +89,89 @@ function closeNav() {
 
         <div class="charactersList">
         <div class="characterCard">
-            <img class="characterIcon" src="images/bitty.png">
             <div class="chr-name">Bitty (Character Name?)</div>
+            <div class="chr-player">Quinn S.</div>
+            <img class="characterIcon grid-collapse" src="images/bitty.png">
             <div class="chr-bio">Doctor in the jungle. Healer of humans and crows. Hopefully not a mad scientist. (we’ll update when Quinn writes more :) )</div>
 
-            <div class="chr-player">Quinn S.</div>
+            
         </div>
         
         <div class="characterCard">
-            <img class="characterIcon" src="images/captain_nem0.png">
             <div class="chr-name">Captain Nemo</div>
+            <div class="chr-player">Benjamin B.</div>
+            <img class="characterIcon grid-collapse" src="images/captain_nem0.png">
+            
             <div class="chr-bio">The town banker with a secret past. He may or may not secretly be a treasure hunter, working on solo expeditions and adventures to acquire relics from long ago.</div>
         
-            <div class="chr-player">Benjamin B.</div>
+            
         </div>
         
         <div class="characterCard">
-            <img class="characterIcon" src="images/ciphers.png">
             <div class="chr-name">Ciphers (Character name?)</div>
+            <div class="chr-player">Megan G.</div>
+            <img class="characterIcon grid-collapse" src="images/ciphers.png">
+            
             <div class="chr-bio">Ancient princess (We’ll update when Megan writes more)</div>
 
-            <div class="chr-player">Megan G.</div>
+            
         </div>
 
         <div class="characterCard">
-            <img class="characterIcon" src="images/dakkar.png">
             <div class="chr-name">Dakkar</div>
+            <div class="chr-player">???</div>
+            <img class="characterIcon grid-collapse" src="images/dakkar.png">
+            
             <div class="chr-bio">A mysterious figure who's been known to make appearances near Jonasville. He claims the residents are responsible for his father’s death and he is plotting his revenge.</div>
         
-            <div class="chr-player">???</div>
+            
         </div>
 
         <div class="characterCard">
-            <img class="characterIcon" src="images/honeybear2000.png">
             <div class="chr-name">Mère Bear</div>
+            <div class="chr-player">Sara M.</div>
+            <img class="characterIcon grid-collapse" src="images/honeybear2000.png">
+            
             <div class="chr-bio">Growing up in Fairfield Village, she was a young teenager when the virus reached her idyllic pastoral life and left her as the village’s sole survivor. At 16 she heard a radio broadcast and discovered Jonasville and its sheriff. She is always quick to provide a helping hand with resources from her building supplies shop and her reconstructed Fairfield Village, but don’t make her mad. She will attack you with a sword while everyone else is throwing potatoes at you. </div>
         
-            <div class="chr-player">Sara M.</div>
+            
         </div>
 
         <div class="characterCard">
-            <img class="characterIcon" src="images/lampsboi.png">
             <div class="chr-name">The Sheriff</div>
+            <div class="chr-player">Kate M.</div>
+            <img class="characterIcon grid-collapse" src="images/lampsboi.png">
+            
             <div class="chr-bio">The town’s self-proclaimed and unchallenged <s>judge</s>, jury, and executioner. By his appearance, some in town have guessed his lineage can be traced back to one of the ancient civilizations that held remarkable regenerative capabilities allowing them one regeneration after an otherwise fatal injury. </div>
         
-            <div class="chr-player">Kate M.</div>
         </div>
 
         <div class="characterCard">
-            <img class="characterIcon" src="images/travis_wolfe.png">
             <div class="chr-name">Judge Wolfe</div>
+            <div class="chr-player">Ethan B.</div>
+            <img class="characterIcon grid-collapse" src="images/travis_wolfe.png">
+            
             <div class="chr-bio">A cornerstone of justice and honesty in Jonasville, many residents know him simply by the name Wolfe. Details are scarce regarding the early life of the enigmatic judge. His official town records are sealed and remain so except under express permission by the Sheriff. </div>
         
-            <div class="chr-player">Ethan B.</div>
+            
         </div>
 
 
 
         <div class="characterCard newPlayer">
-            <img class="characterIcon" src="images/incoming.png">
             <div class="chr-name">Coming Soon!</div>
+            <img class="characterIcon grid-collapse" src="images/incoming.png">
+            
             <div class="chr-bio"></div>
         </div>
 
         <div class="characterCard newPlayer">
-            <img class="characterIcon" src="images/incoming.png">
             <div class="chr-name">Coming Soon!</div>
+            <img class="characterIcon grid-collapse" src="images/incoming.png">
+            
             <div class="chr-bio"></div>
         </div>
+
         </div>
 
         <footer id="footer">
@@ -172,5 +188,26 @@ function closeNav() {
                 </div>
             </div>
         </footer>
+
+        <script>            
+            if($(window).width() > 1024){
+
+                var coll = document.getElementsByClassName("grid-collapse");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    
+                    if (content.style.maxHeight){
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    } 
+                });
+            }
+        }
+        </script>
     </body>
 </html>
