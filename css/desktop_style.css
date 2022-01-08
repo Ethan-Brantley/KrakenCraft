@@ -24,7 +24,7 @@
 
     body {
 
-        font-size: 20px;
+        font-size: 4px;
         font-family:Georgia, 'Times New Roman', Times, serif;
         color: white;
     
@@ -74,8 +74,8 @@
 
     .chr-name {
 
-        padding-top: 40px;
-        font-size: 25px;
+        padding-top: 20px;
+        font-size: 20px;
         
         
     }
@@ -84,7 +84,7 @@
     
         text-indent: 2em;
         line-height: 20px;
-        font-size: 15px;
+        font-size: 14px;
         padding: 0 20px;
         max-height: 0;
         overflow: hidden;
@@ -94,14 +94,20 @@
 
     h2 {
 
-        font-size: 30px;
+        font-size: 22px;
         padding: 50px 25px;
     
     }
 
+    h3 {
+
+        font-size: 20px;
+
+    }
+
     .pg {
 
-        font-size: 18px;
+        font-size: 14px;
         padding: 30px 15%;
         text-indent: 2em;
     
@@ -126,7 +132,7 @@
     #top-bar {
 
         background-color: black;
-        font-size: 40px;
+        font-size: 30px;
         text-align: left;
         height: 100px;
         position: relative;
@@ -149,8 +155,9 @@
         display: inline;
         padding: 10px 0px;
         margin: 0;
-        top: 10%;
-        left: 100px;
+        font-size: 20px;
+        top: 25%;
+        left: 110px;
         position: absolute;
     
     }
@@ -167,7 +174,7 @@
         height: 100px;
         position: absolute;
         right: 0;
-        top: -25%;
+        top: -5%;
 
     }
 
@@ -212,7 +219,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 4rem;
+        font-size: 2rem;
     
     }
 
@@ -232,7 +239,7 @@
 
 #footer {
 
-    font-size: 20px;
+    font-size: 15px;
 
 }    
 
