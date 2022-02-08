@@ -226,14 +226,16 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 2rem;
+        color: white;
     
     }
 
-    .slider-container {
+    #carousel01, #carousel02, #carousel03, #carousel04 {
 
-        width: 50%;
+        width: 75%;
         display: block;
         margin: 0 auto;
+        padding: 0;
 
     }
 
