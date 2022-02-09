@@ -174,7 +174,7 @@
     
      }
 
-    .desktop-nav-bar {
+    .desktop-nav {
 
         display: inline;
         height: 100px;
@@ -184,7 +184,7 @@
 
     }
 
-    .desktop-nav-bar-item {
+    .desktop-nav-item {
 
         display: inline-block;
         padding-left: 50px;
@@ -192,7 +192,7 @@
 
     }
 
-    .desktop-nav-bar-item a {
+    .desktop-nav-item a {
 
         text-decoration: none;
         color: white;
@@ -210,7 +210,7 @@
 
     }
 
-    .banner {
+    .page_banner {
 
         width: 100%;
         height: 100%;
