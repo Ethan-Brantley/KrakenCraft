@@ -23,9 +23,19 @@ body {
 
 }
 
+.page_banner {
+
+    height: 30vh;
+    object-fit: cover;
+    object-position: 50% 40%;
+
+}
+
+
 .img-txt-center {
 
     position: absolute;
+    background-color: rgba(0, 0, 0, 0.472);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -187,9 +197,18 @@ body {
 
 .pg {
 
-    font-size: 40px;
-    padding: 75px 75px 10px 72px;
-    text-indent: 3em;
+    font-size: 25px;
+    padding: 75px 110px 10px 110px;
+    text-indent: 4em;
+
+}
+
+h1 {
+
+    font-size: 100px;
+    padding: 125px 75px;
+    text-align: center;
+    color: black;
 
 }
 

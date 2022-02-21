@@ -92,6 +92,13 @@
     
     }
 
+    h1 {
+
+        font-size: 30px;
+        padding: 50px 25px;
+    
+    }
+
     h2 {
 
         font-size: 22px;
@@ -108,8 +115,8 @@
     .pg {
 
         font-size: 14px;
-        padding: 30px 15%;
-        text-indent: 2em;
+        padding: 30px 50px;
+        text-indent: 2.5em;
     
     }
 
@@ -222,6 +229,8 @@
     .img-txt-center {
 
         position: absolute;
+        background-color: rgba(0, 0, 0, 0.472);
+        padding: 10px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
