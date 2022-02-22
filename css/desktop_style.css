@@ -30,6 +30,12 @@
     
     }
 
+    .region-section p {
+
+        padding: 25px 500px;
+    
+    }
+
     .charactersList {
 
         display: flex;
@@ -99,6 +105,13 @@
     
     }
 
+    p {
+
+        font-size: 15px;
+        padding: 0px;
+
+    }
+
     h2 {
 
         font-size: 22px;
@@ -108,7 +121,7 @@
 
     h3 {
 
-        font-size: 20px;
+        font-size: 15px;
 
     }
 
@@ -120,22 +133,6 @@
     
     }
 
-    .card1 {
-        display: block;
-        min-height: 500px;
-        padding: 50px;
-        background-color: black;
-        color: white;
-    }
-    
-    .card2 {
-        display: block;
-        min-height: 500px;
-        padding: 25px;
-        background-color: #dedede;
-        color: black;
-    }
-
     #top-bar {
 
         background-color: black;
@@ -145,6 +142,21 @@
         position: relative;
     
     
+     }
+
+     .banner-arrow:before {
+
+        width: 20px;
+        height: 20px;
+
+     }
+
+     .banner-arrow {
+
+        width: 40px;
+        height: 40px;
+        top: 90%;
+        
      }
     
      .logo {
