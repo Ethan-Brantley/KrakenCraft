@@ -70,11 +70,21 @@ body {
 
 .page_banner {
 
-    height: 100vh;
+    height: 100%;
     width: 100%;
     background-size: cover;
-    background-position: 45% 40%;
-    background-image:url("../images/banner_dark.jpg")
+    background-position: 50% 50%;
+    background-image:url("../images/gamemode_ss/kns/kns_1.png");
+
+}
+
+.card {
+
+    background-color: white;
+    color: black;
+    margin: 30px;
+    min-height: 300px;
+    border-radius: 5px;
 
 }
 
@@ -86,13 +96,14 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 2rem;
+    color: black;
 
 }
 
 .region-section {
 
     min-height: 100vh;
-    padding-top: 30px;
+    padding: 30px 0px;
     overflow: hidden;
     
 
@@ -123,6 +134,7 @@ body {
 
     text-indent: 2em;
     padding: 50px 25px;
+    font-size: 20px;
 
 }
 

@@ -189,6 +189,8 @@
     
      }
 
+
+
      .banner-arrow:before {
 
         width: 20px;
@@ -282,7 +284,6 @@
         left: 50%;
         transform: translate(-50%, -50%);
         font-size: 2rem;
-        color: white;
     
     }
 
@@ -293,16 +294,6 @@
         margin: 0 auto;
         padding: 0;
 
-    }
-
-    .page_banner {
-
-        height: 100vh;
-        width: 100%;
-        background-image:url("../images/0zfa86xjuvh41.jpg");
-        background-size: cover;
-        background-position: 60% 40%;
-    
     }
 
     .profile-img {
