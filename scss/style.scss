@@ -72,8 +72,9 @@ body {
 
     height: 100vh;
     width: 100%;
-    object-fit: cover;
-    object-position: 60% 40%;
+    background-size: cover;
+    background-position: 45% 40%;
+    background-image:url("/images/banner_dark.jpg")
 
 }
 
@@ -91,7 +92,7 @@ body {
 .region-section {
 
     min-height: 100vh;
-    padding: 30px 50px;
+    padding-top: 30px;
     overflow: hidden;
     
 
@@ -111,6 +112,13 @@ body {
 
 }
 
+.region-section .pg {
+
+    padding: 15px 50px;
+    
+
+}
+
 .content-text {
 
     text-indent: 2em;
@@ -121,6 +129,31 @@ body {
 .content-img:nth-child(even) {
 
     order: 3;
+
+}
+
+.profile-img {
+
+    width:100%;
+    padding:25px;
+
+}
+
+.profile-avatar {
+
+    width:100%;
+
+}
+
+.float-left {
+
+    float:left;
+
+}
+
+.float-right {
+
+    float:right;
 
 }
 
@@ -163,7 +196,7 @@ body {
     background-color: black;
     font-size: 25px;
     text-align: left;
-    height: 160px;
+    height: 130px;
     position: relative;
 
 
