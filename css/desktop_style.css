@@ -304,6 +304,23 @@
 
     }
 
+    .pg {
+
+        font-size: 15px;
+        text-indent: 2em;
+        padding: 10px 150px;
+
+    }
+
+    .quote {
+
+        font-size: 15px;
+    padding: 50px;
+    width: 40%;
+    margin: auto;
+
+    }
+
 /*
 *
 * Desktop Footer Style

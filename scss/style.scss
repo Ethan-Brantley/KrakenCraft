@@ -8,7 +8,7 @@
 
 body {
 
-    font-size: 40px;
+    font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
 
@@ -113,7 +113,7 @@ body {
 
 .content-text {
 
-    text-indent: 2.5em;
+    text-indent: 2em;
     padding: 50px 25px;
 
 }
@@ -144,28 +144,26 @@ body {
 
 .ip-info {
 
-    display: inline;
+    display: block;
     left: 0;
-    padding-left: 50px;
-    position: absolute;
+    position: relative;
 
 }
 
 .online-info {
 
-    display: inline;
+    display: block;
     right: 0;
-    padding-right: 50px;
-    position: absolute;
+    position: relative;
 
 }
 
  #top-bar {
 
     background-color: black;
-    font-size: 40px;
+    font-size: 25px;
     text-align: left;
-    height: 180px;
+    height: 160px;
     position: relative;
 
 
@@ -176,7 +174,7 @@ body {
     color: white;
     display: block;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
 
  }
 
@@ -188,7 +186,7 @@ body {
 
  .logo {
 
-    height: 100px;
+    height: 75px;
     display: inline;
     position: absolute;
     top: 25%;
@@ -201,8 +199,8 @@ body {
     display: inline;
     padding: 50px 0px;
     margin: 0;
-    top: 10%;
-    left: 200px;
+    top: 8%;
+    left: 150px;
     position: absolute;
 
 }
@@ -210,8 +208,8 @@ body {
  .openBtn {
 
     position: absolute;
-    right: 50px;
-    top: 50px;
+    right: 25px;
+    top: 25px;
     z-index: 0;
 
  }
@@ -242,7 +240,7 @@ body {
   .overlay a {
     padding: 50px;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 20px;
     color: #818181;
     display: block; /* Display block instead of inline */
     transition: 0.3s; /* Transition effects on hover (color) */
@@ -256,8 +254,8 @@ body {
   /* Position the close button (top right corner) */
   .overlay .closeBtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: -59px;
+    right: -35px;
     font-size: 60px;
   }
   
@@ -283,17 +281,38 @@ body {
 
  }
 
+ .quote {
+
+    font-size: 20px;
+    padding: 50px 10px;
+    width: 70%;
+    margin: auto;
+    font-family: serif;
+    font-style: italic;
+    font-weight: bold;
+
+ }
+
+ .citation {
+
+    color: rgb(83, 83, 83);
+    font-style:normal;
+    float: right;
+    padding: 5px;
+
+ }
+
 .pg {
 
-    font-size: 25px;
-    padding: 75px 110px 10px 110px;
-    text-indent: 4em;
+    font-size: 20px;
+    padding: 75px 10px 10px 10px;
+    text-indent: 2em;
 
 }
 
 h1 {
 
-    font-size: 100px;
+    font-size: 33px;
     padding: 50px 75px;
     text-align: center;
     color: black;
@@ -302,7 +321,7 @@ h1 {
 
 h2 {
 
-    font-size: 75px;
+    font-size: 25px;
     text-align: center;
     padding: 25px 75px;
 
@@ -411,8 +430,8 @@ h3 {
 
     position: absolute;
     width: 100%;
-    min-width: 200px;
-    padding: 50px;
+    min-height: 100px;
+    padding: 10px;
     background-color: black;
     color: white;
     text-align: center;
