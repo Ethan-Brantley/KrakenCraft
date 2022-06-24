@@ -27,6 +27,7 @@
         font-size: 10px;
         font-family:Georgia, 'Times New Roman', Times, serif;
         color: white;
+        margin: 0;
     
     }
 
@@ -43,6 +44,47 @@
         width: 100%;
         cursor: pointer;
         
+    }
+
+    .news {
+
+        width: 87%;
+        left: 50px;
+
+    }
+
+    #msg-in-queue {
+
+        height: 50px;
+        float: left;
+        width: 10%;
+        color: red;
+        margin: 50px;
+    
+    }
+    
+    #editor {
+    
+        margin-top: 50px;
+        float: right;
+        padding: 50px;
+        text-indent: 0px;
+        width: 70%;
+        min-height: 100vh;
+        font-size: 1.5em;
+    
+    }
+    
+    #clear_Q {
+        position: absolute;
+        right:0;
+    }
+
+    #add_to_Q {
+
+        position: absolute;
+        right: 100px;
+
     }
 
     .characterCard {
@@ -324,6 +366,16 @@
     width: 40%;
     margin: auto;
 
+    }
+
+    .login {
+
+        position: absolute;
+        display: block;
+        right: 10px;
+        top: 10px;
+        color: white;
+    
     }
 
 /*

@@ -34,7 +34,8 @@ function closeNav() {
         <script>$(document).ready(function(){
             $('.news').slick({
                 centerMode: true,
-  centerPadding: '60px',
+                arrows: true,
+  centerPadding: '0px',
   slidesToShow: 3,
   responsive: [
     {
@@ -42,8 +43,8 @@ function closeNav() {
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
+        centerPadding: '100px',
+        slidesToShow: 1
       }
     },
     {
@@ -51,7 +52,7 @@ function closeNav() {
       settings: {
         arrows: false,
         centerMode: true,
-        centerPadding: '40px',
+        centerPadding: '0px',
         slidesToShow: 1
       }
     }
@@ -69,6 +70,7 @@ function closeNav() {
                 <a href="index.html">Home</a>
                 <a href="story.html">Story</a>
                 <a href="updates.html">Updates</a>
+                <a href="narrator.html">Narrator Login</a>
             </div>
         </div>
 
@@ -78,11 +80,14 @@ function closeNav() {
             <div class="logo-txt">KrakenCraft</div>
             </a>
 
+            
+
             <div class="desktop-nav">
                 <ul>
                     <li class="desktop-nav-item"><a href="index.html">Home</a></li>
                     <li class="desktop-nav-item"><a href="story.html">Story</a></li>
                     <li class="desktop-nav-item"><a href="updates.html">Updates</a></li>
+                    <a href="narrator.html"><i class="fa fa-sign-in login" aria-hidden="true"></i></a>
                 </ul>
             </div>
 

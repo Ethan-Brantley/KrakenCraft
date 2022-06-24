@@ -11,6 +11,7 @@ body {
     font-size: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
+    margin: 0px;
 
 }
 
@@ -78,11 +79,34 @@ body {
 
 }
 
+#msg-in-queue {
+
+    height: 50px;
+    color: red;
+    margin: 50px;
+
+}
+
+#editor {
+
+    margin-top: 50px;
+    padding: 50px;
+    text-indent: 0px;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#clear_Q {
+    position:absolute;
+    right:0;
+}
+
 .card {
 
     background-color: white;
     color: black;
-    margin: 40px;
+    margin: 50px;
     border-radius: 5px;
 
 }
@@ -235,6 +259,12 @@ body {
     position: absolute;
     top: 25%;
     left: 25px;
+
+}
+
+.login {
+
+    display: none;
 
 }
 
