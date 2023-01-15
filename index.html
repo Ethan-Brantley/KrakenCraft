@@ -13,7 +13,25 @@
 </head>
 <body>
     <header>
-        <img src="images/server_images/kraken_icon.png" id="logo">
+        <a href="index.html"><img src="images/server_images/kraken_icon.png" id="logo"></a>
+        <nav>
+            <div id="mobile-nav">
+                <span onclick="openNav()" class="openBtn"><i class="fa fa-bars"></i></span>
+                <div class="overlay-content" id="nav">
+                    <span href="javascript:void(0)" class="closeBtn" onclick="closeNav()">×</span>
+                    <a href="index.html">Home</a>
+                    <a href="html/story.html">Story</a>
+                    <a href="html/news.html">News</a>
+                    <a href="html/storymaster-hub.html" id="login"><i class="fa fa-user"></i></a>
+                </div>
+            </div>
+            <div id="desktop-nav">
+                <a href="index.html">Home</a>
+                <a href="html/story.html">Story</a>
+                <a href="html/news.html">News</a>
+                <a href="html/storymaster-hub.html" id="login"><i class="fa fa-user"></i></a>
+            </div>
+        </nav>
     </header>
     <main>
         <div id="banner">
@@ -43,5 +61,6 @@
             Copyright &copy; 2023 KrakenCraft
         </div>
     </footer>
+    <script src="js/mobile-nav.js"></script>
 </body>
 </html>
