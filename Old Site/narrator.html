@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narrator Login</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/desktop_style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script type="text/javascript">
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("nav").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("nav").style.width = "0%";
+        }
+    </script>
+</head>
+<body>
+    <div id="nav" class="overlay">
+        <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="story.html">Story</a>
+            <a href="updates.html">Updates</a>
+            <a href="narrator.html">Narrator Login</a>
+        </div>
+    </div>
+
+    <div id="top-bar">
+        <a href="index.html" style="text-decoration:none;color:white">
+            <img class="logo" src="images/kraken_icon.png">
+            <div class="logo-txt">KrakenCraft</div>
+        </a>
+
+        <div class="desktop-nav">
+            <ul>
+                <li class="desktop-nav-item"><a href="index.html">Home</a></li>
+                <li class="desktop-nav-item"><a href="story.html">Story</a></li>
+                <li class="desktop-nav-item"><a href="updates.html">Updates</a></li>
+                <a href="narrator.html"><i class="fa fa-sign-in login" aria-hidden="true"></i></a>
+            </ul>
+        </div>
+
+        <span onclick="openNav()" class="openBtn"><i class="fa fa-bars"></i></span>
+    </div>
+
+    <div class="region-section" style="background-color: black;color:white;">
+        <h1 class="font-light">So you're the StoryMaster?</h1>
+        <h2 class="font-light">There are a few things you need to know</h2>
+        <h3 class="font-light">(Take it as a compliment if someone calls you StoryDaddy)</h3>
+    </div>
+
+    <!--<div class="region-section" style="background-color: black;color:white;">
+    
+        <div id="msg-in-queue">
+
+            <p>Messages and commands queued to be sent will appear here</p>
+
+        </div>
+
+        <div>
+            <textarea id="editor" rows="4" cols="50">Enter your commands and messages here</textarea>
+            <button id="add_to_Q">Add to Queue</button><button id="clear_Q">Clear Queue</button>
+        </div>
+    
+    </div>-->
+</body>
+</html>

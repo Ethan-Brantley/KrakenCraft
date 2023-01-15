@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/desktop_style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        
+
+        <script type="text/javascript">
+            /* Open when someone clicks on the span element */
+function openNav() {
+  document.getElementById("nav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+  document.getElementById("nav").style.width = "0%";
+}
+        </script>
+        <script>$(document).ready(function(){
+            $('.news').slick({
+                centerMode: true,
+                arrows: true,
+  centerPadding: '0px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '100px',
+        slidesToShow: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '0px',
+        slidesToShow: 1
+      }
+    }
+  ]
+            });
+          });</script>
+    </head>
+
+    <body>
+
+        <div id="nav" class="overlay">
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="story.html">Story</a>
+                <a href="updates.html">Updates</a>
+                <a href="narrator.html">Narrator Login</a>
+            </div>
+        </div>
+
+        <div id="top-bar">
+            <a href="index.html" style="text-decoration:none;color:white">
+            <img class="logo" src="images/kraken_icon.png">
+            <div class="logo-txt">KrakenCraft</div>
+            </a>
+
+            
+
+            <div class="desktop-nav">
+                <ul>
+                    <li class="desktop-nav-item"><a href="index.html">Home</a></li>
+                    <li class="desktop-nav-item"><a href="story.html">Story</a></li>
+                    <li class="desktop-nav-item"><a href="updates.html">Updates</a></li>
+                    <a href="narrator.html"><i class="fa fa-sign-in login" aria-hidden="true"></i></a>
+                </ul>
+            </div>
+
+            <span onclick="openNav()" class="openBtn"><i class="fa fa-bars"></i></span>
+        </div>
+
+        <div class="container">
+            <div class="page_banner"></div>
+            <!--<div class="img-txt-center">Welcome to Krakencraft.</div>
+            <div class="banner-arrow"></div>-->
+
+        </div>
+
+        <div class="region-section" style="background-color: black;color:white;">
+            <h2 style="text-align: center;">Begin Descent.</h2>
+            <p class="pg">
+                KrakenCraft is an exclusive Minecraft Server with a small player base dedicated to maintaining a fun, friendly community. Plugins are carefully curated by a team of passionate individuals to ensure intuitive gameplay and an experience faithful to the original game. KrakenCraft players are carefully vetted. The server contains a variety of worlds ranging from vanilla survival, worlds with an overarching storyline, to a growing number of popular team-based games (i.e. BedWars, VillageDefense, SheepQuest, and more).
+            </p>
+            <p class="pg" style="text-indent:0px;">If you’re reading this, you most likely have already received an invite from a current player. We’re excited to have you join us!</p>
+        </div>
+
+        <div style="background-image: url(images/gamemode_ss/kns/kns_2_blur.png);background-size:cover;">
+        
+            <h1 style="color:white">News</h1>
+
+        <div class="news">
+            <div class="card">
+                <h2>Server Update (3/5/22)</h2>
+                <p class="content-text" style="text-indent:0px;">Server has been updated to 1.18.2! Players' minecraft clients must be running 1.18.2 to join.</p>
+            </div>
+            <div class="card">
+                <h2>News 1</h2>
+                <p class="content-text" style="text-indent:0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minima, ea delectus laboriosam, sapiente voluptatum, dicta repudiandae ipsam architecto dolorem nulla. Harum hic nisi quaerat deleniti minus dolores quam voluptate!</p>
+            </div>
+            <div class="card">
+                <h2>News 2</h2>
+                <p class="content-text" style="text-indent:0px;">Other relevent news</p>
+            </div>
+            <div class="card">
+                <h2>News 3</h2>
+                <p class="content-text" style="text-indent:0px;">Other relevent news</p>
+            </div>
+            <div class="card">
+                <h2>News 4</h2>
+                <p class="content-text" style="text-indent:0px;">Other relevent news</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="region-section" style="background-color:white;color:black">
+            <h2>Lobby</h2>
+            
+            <div class="center">
+            <img src="images/gamemode_ss/lobby/lobby_1.png" class="content-img">
+
+            <p class="content-text">KrakenCraft Mining Corp™ has staked a claim on the rogue asteroid 1342-C. This asteroid is rich in the purple mineral Purpur-92 but during mining operations it was also discovered that this particular asteroid is also the spawning grounds of a majestic, yet dangerous creature, the Space Kraken. Fortunately measures were enacted to keep the Kraken contained and the mining operations can continue...For now.
+                        <br><br>Coincidentally, this asteroid is also the location of many portals that lead to other worlds that are waiting to be explored.</p>
+        </div>
+        <div class="region-section">
+            <h2>KrakenCraft Narrative Survival</h2>
+             
+            <div class="center">
+                        
+            <p class="content-text">A Minecraft world with a progressive <a href="story.html">storyline</a>. Each player creates their story as they play along. Their conversations, actions, and choices build their unique tale and influence the narrative as a whole. The story is divided up into chapters and books as major events develop. Without plotting out details, basic structure may be discussed ahead of time and external elements introduced to keep events interesting and moving along.</p>
+            <img src="images/gamemode_ss/kns/kns_1.png" class="content-img">
+        </div>
+        </div>
+
+        <div class="region-section">
+            <h2>Minigames</h2>
+
+            <section>
+
+                <div class="center">
+                    <img src="images/gamemode_ss/minigames/bedwars_wild_west.png" class="content-img right">
+                    <p class="content-text">Whether you’re interested in a pulse-pumping PvP experience in BedWars, feel like hurling sheep at your fiened enemies in SheepQuest, or protect a village from waves of enemies in VillageDefense, Minigames has it all. New games are being added regularly.</p>
+                </div>
+
+            </section>
+        </div>
+
+        <div class="region-section">
+            <section>
+                <h2>Enriched Survival</h2>
+                <div class="center">
+                    <p class="content-text">Survival with a twist. Peaceful survival, where you keep your inventory and creepers don't blow your builds up (in the overworld and nether). With over forty custom enchantments, the ability to fell mighty trees with the swing of your axe, and more, Enriched Survival retains the vanilla experience while bringing its own unique spice.</p>
+                    <img src="images/gamemode_ss/kes/kes_3.png" class="content-img right">
+                </div>
+            </section>
+        </div>
+
+        
+
+        <footer id="footer">
+            <p>&copy; Krakencraft 2021</p>
+
+            <div class="info-bar">
+                <div class="online-info">
+                    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    
+            <span data-playercounter-ip="72.9.158.30:25931">0</span> players online
+                </div>
+                <div class="ip-info">
+                    IP: 72.9.158.30:25931
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

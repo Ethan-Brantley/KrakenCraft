@@ -1,0 +1,399 @@
+/*
+ *
+ * Global Desktop Stylesheet Changes
+ *
+ */
+
+@media only screen and (min-width: 1024px) {
+
+    
+    .charactersList > div {
+    
+        margin: auto;
+        width: 25%;
+        text-align: center;
+        line-height: 50px;
+        font-size: 20px;
+      }
+
+    
+      .break {
+        flex-basis: 100%;
+        height: 0;
+      }
+
+    body {
+
+        font-size: 10px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: white;
+        margin: 0;
+    
+    }
+
+    .region-section {
+
+        min-height: 100px;
+
+    }
+
+    .charactersList {
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        cursor: pointer;
+        
+    }
+
+    .news {
+
+        width: 87%;
+        left: 50px;
+
+    }
+
+    #msg-in-queue {
+
+        height: 50px;
+        float: left;
+        width: 10%;
+        color: red;
+        margin: 50px;
+    
+    }
+    
+    #editor {
+    
+        margin-top: 50px;
+        float: right;
+        padding: 50px;
+        text-indent: 0px;
+        width: 70%;
+        min-height: 100vh;
+        font-size: 1.5em;
+    
+    }
+    
+    #clear_Q {
+        position: absolute;
+        right:0;
+    }
+
+    #add_to_Q {
+
+        position: absolute;
+        right: 100px;
+
+    }
+
+    .characterCard {
+
+        min-height: 500px;
+        text-align: left;
+        color: black;
+        width: 20%;
+        position: relative;
+        border: none;
+
+    }
+
+    .characterCard:hover {
+
+        background-color: #dedede;
+        transition: background-color 0.7s ease-out;
+
+    }
+    
+    .font-light {
+
+        color: white;
+    
+     }
+
+    .characterIcon {
+
+        float: left;
+        width: 100%;
+        height: auto;
+    
+    }
+
+    .region-img {
+
+        width: 70%;
+    
+    }
+
+    .chr-name {
+
+        padding-top: 20px;
+        font-size: 20px;
+        
+        
+    }
+    
+    .chr-bio {
+    
+        text-indent: 2em;
+        line-height: 20px;
+        font-size: 14px;
+        padding: 0 20px;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+    
+    }
+
+    h1 {
+
+        font-size: 30px;
+        padding: 30px 25px 0px 25px;
+    
+    }
+
+    p {
+
+        font-size: 15px;
+        padding: 0px;
+
+    }
+
+    h2 {
+
+        font-size: 22px;
+        padding: 20px 25px 30px 25px;
+    
+    }
+
+    td {
+
+        display: table-cell;
+        width: 50%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .content-text {
+
+        margin: 0;
+        font-size: 16px;
+        text-indent: 2.5em;
+
+
+    }
+
+    .content-img {
+
+        width: 50%;
+        padding: 50px;
+
+    }
+
+    .center {
+
+        display: flex;
+    align-items: center;
+    
+    }
+    
+    .row {
+
+        display: block;
+        width: 100vw;
+
+    }
+
+    .col {
+
+        width: 50%;
+
+    }
+
+    h3 {
+
+        font-size: 15px;
+
+    }
+
+    .pg {
+
+        font-size: 16px;
+        padding: 30px 50px;
+        text-indent: 2.5em;
+    
+    }
+
+    #top-bar {
+
+        background-color: black;
+        font-size: 30px;
+        text-align: left;
+        height: 100px;
+        position: relative;
+    
+    
+     }
+
+
+
+     .banner-arrow:before {
+
+        width: 20px;
+        height: 20px;
+
+     }
+
+     .banner-arrow {
+
+        width: 40px;
+        height: 40px;
+        top: 90%;
+        
+     }
+    
+     .logo {
+    
+        height: 50px;
+        display: inline;
+        position: absolute;
+        top: 25%;
+        left: 25px;
+    
+    }
+
+    .link {
+
+    font-size: 14px;
+
+    }
+    
+    .logo-txt {
+    
+        display: inline;
+        padding: 10px 0px;
+        margin: 0;
+        font-size: 20px;
+        top: 25%;
+        left: 110px;
+        position: absolute;
+    
+    }
+
+    .openBtn {
+
+        display: none;
+    
+     }
+
+    .desktop-nav {
+
+        display: inline;
+        height: 100px;
+        position: absolute;
+        right: 0;
+        top: -5%;
+
+    }
+
+    .desktop-nav-item {
+
+        display: inline-block;
+        padding-left: 50px;
+        padding-right: 100px;
+
+    }
+
+    .desktop-nav-item a {
+
+        text-decoration: none;
+        color: white;
+        font-size: 0.5em;
+
+    }
+
+    .container {
+
+        height:  600px;
+        overflow: hidden;
+        margin: auto;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .img-txt-center {
+
+        position: absolute;
+        padding: 10px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2rem;
+    
+    }
+
+    #carousel01, #carousel02, #carousel03, #carousel04 {
+
+        width: 75%;
+        display: block;
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    .profile-img {
+
+        width: 40%;
+
+    }
+    
+
+    .profile-avatar {
+
+        width: 20%;
+
+    }
+
+    .pg {
+
+        font-size: 16px;
+        text-indent: 2em;
+        padding: 10px 150px;
+
+    }
+
+    .quote {
+
+        font-size: 15px;
+    padding: 50px;
+    width: 40%;
+    margin: auto;
+
+    }
+
+    .login {
+
+        position: absolute;
+        display: block;
+        right: 10px;
+        top: 10px;
+        color: white;
+    
+    }
+
+/*
+*
+* Desktop Footer Style
+*
+*/
+
+#footer {
+
+    font-size: 16px;
+
+}    
+
+}
+

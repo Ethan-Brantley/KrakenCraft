@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Story</title>
+
+        <link rel="stylesheet" href="css/reset.css" type="text/css">
+        <link rel="stylesheet" href="css/style.css" type="text/css">
+        <link rel="stylesheet" href="css/desktop_style.css" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        <div id="nav" class="overlay">
+            <a href="javascript:void(0)" class="closeBtn" onclick="closeNav()">&times;</a>
+
+            <div class="overlay-content">
+                <a href="index.html">Home</a>
+                <a href="story.html">Story</a>
+                <a href="updates.html">Updates</a>
+                <a href="narrator.html">Narrator Login</a>
+            </div>
+        </div>
+
+        <div id="top-bar">
+            <a href="index.html" style="text-decoration:none;color:white">
+                <img class="logo" src="images/kraken_icon.png">
+                <div class="logo-txt">KrakenCraft</div>
+            </a>
+
+            <div class="desktop-nav">
+                <ul>
+                    <li class="desktop-nav-item"><a href="index.html">Home</a></li>
+                    <li class="desktop-nav-item"><a href="story.html">Story</a></li>
+                    <li class="desktop-nav-item"><a href="updates.html">Updates</a></li>
+                    <a href="narrator.html"><i class="fa fa-sign-in login" aria-hidden="true"></i></a>
+                </ul>
+            </div>
+
+            <span onclick="openNav()" class="openBtn"><i class="fa fa-bars"></i></span>
+        </div>
+
+        <!--<div class="container">
+            <img class="page_banner" src="images/axolotls.jpg">
+        </div>-->
+
+        <h1>The Story</h1>
+            <p class="pg" style="text-align: center; color:black;padding:50px;">Many years ago, four ancient civilizations ruled the Minecraft world:</p>
+
+            <div class="region-section">
+                <h3>Ke Kaí</h3>
+                <img class="region-img" src="images/regions/ke_kai.png">
+                <p class="pg">The ocean region, also known as Corpus Aqua.</p>
+            </div>
+
+            <div class="region-section">
+                <h3>Snæbjörn</h3>
+                <img class="region-img" src="images/regions/snow_region.png">
+                <p class="pg">The snow region, also known as Hibernus. High in the icy mountains, a society dedicated to the advancement of medicine and knowledge. Many botanists inhabited the region, coaxing exotic plants to grow in harsh conditions. Historians far and wide regard the lost ancient library of Snæbjörn to be the most authoritative and complete in the known world.</p>
+            </div>
+
+            <div class="region-section">
+            <h3>Fornaxia</h3>
+            <img class="region-img" src="images/regions/fornaxia.jpg">
+            <p class="pg">The desert region, also called Fervens. Hidden in the sands of the largest deserts, the Fornaxians built an extensive empire around their import/export of terrestrial goods. Comprised of a number of bazaars and trading posts, the Fornaxian accords loosely bound the seven mercantile Families into cooperation. Ancient trade manifests reveal excitement over a previously unknown fossilized substance. It was discovered by using sounding equipment on bedrock below the Capital trade city. A great deal of Fornaxian resources were allocated to the discovery of a process to break through the bedrock layer, safe transportation over the Void, and extraction of this substance. It is unclear what exactly this substance was, but its discovery coincides with the beginning of the civilization's downfall.</p>
+            </div>
+
+            <div class="region-section">
+            <h3>Aetheria</h3>
+            <img class="region-img" src="images/regions/aetheria.png">
+            <p class="pg">The sky region, also called the aether. With its capital city of Icaria, the Aetherians were the first people to breach the overworld dimension by creating portals that connected our world with the Nether and End beyond. Building high above the ground through the use of Ender technology, they quickly used their technological superiority to amass an army and impose their will wherever they chose.</p>
+            </div>
+            <div class="region-section" style="min-height: 40vh">
+                <p class="pg">These kingdoms ruled for thousands of years until one by one they collapsed into the sands of time. Years later, a deadly virus emerged. It quickly spread to even the most isolated communities, wiping out millenia of progress and achievement. Survivors of this global pandemic roam the ruins of these ancient cities seeking refuge from the mutated creatures (I mean GIANT BEES? Who has ever seen bees as big as your head?) while attempting to piece together rare fragments of the past.</p>
+                <p class="pg" style="text-indent: 0%;">Some survivors claim to pick up radio signals, repeating a glimmer of hope through the static. “Jonasville safe. Rebuilding together.”</p>
+                <p class="pg">Who is broadcasting these mysterious signals with a seemingly limitless range? Why have these ancient civilizations been reduced to crumbling ruins?</p>
+            </div>
+
+        <h2 style="color:black" id="profilesLink">Player Characters</h2>
+        <p style="color:black;text-align: center;padding:20px">These characters are created and played by members of the server.</p>
+
+        <div class="charactersList">
+        <div class="characterCard">
+            <div class="chr-name">Runt Rot - "Crow"</div>
+            <div class="chr-player">Quinn S.</div>
+            <img class="characterIcon grid-collapse" src="images/character_headshots/runt_rot.png">
+            <div class="chr-bio">Raised by a tribe of piglins, Runt Rot is an intrepid miner with a knack for shiny things.</div>
+
+            
+        </div>
+        
+        <div class="characterCard">
+            <div class="chr-name">Captain Nemo</div>
+            <div class="chr-player">Benjamin B.</div>
+            <img class="characterIcon grid-collapse" src="images/character_headshots/captain_nem0.png">
+            
+            <div class="chr-bio">The town banker with a secret past. He may or may not secretly be a treasure hunter, working on solo expeditions and adventures to acquire relics from long ago.</div>
+        
+            
+        </div>
+        
+        <div class="characterCard">
+            <div class="chr-name">Princess Ciphira - "Cipher"</div>
+            <div class="chr-player">Megan G.</div>
+            <img class="characterIcon grid-collapse" src="images/character_headshots/ciphers.png">
+            
+            <div class="chr-bio">Ancient princess (We’ll update when Megan writes more)</div>
+
+            
+        </div>
+
+        <div class="characterCard">
+            <div class="chr-name">Mère Bear</div>
+            <div class="chr-player">Sara M.</div>
+            <img class="characterIcon grid-collapse" src="images/character_headshots/honeybear2000.png">
+            
+            <div class="chr-bio">Growing up in Fairfield Village, she was a young teenager when the virus reached her idyllic pastoral life and left her as the village’s sole survivor. At 16 she heard a radio broadcast and discovered Jonasville and its sheriff. She is always quick to provide a helping hand with resources from her building supplies shop and her reconstructed Fairfield Village, but don’t make her mad. She will attack you with a sword while everyone else is throwing potatoes at you. </div>
+        
+            
+        </div>
+
+        <div class="characterCard">
+            <div class="chr-name">The Sheriff</div>
+            <div class="chr-player">Kate M.</div>
+            <img class="characterIcon grid-collapse" src="images/character_headshots/lampsboi.png">
+            
+            <div class="chr-bio">The town’s unchallenged <s>judge</s>, jury, and executioner. By his appearance, some in town have guessed his lineage can be traced back to one of the ancient civilizations that held remarkable regenerative capabilities allowing them one regeneration after an otherwise fatal injury. </div>
+        
+        </div>
+
+        <div class="characterCard">
+            <div class="chr-name">Judge Wolfe</div>
+            <div class="chr-player">Ethan B.</div>
+            <img class="characterIcon grid-collapse" src="images/character_headshots/travis_wolfe.png">
+            
+            <div class="chr-bio">A cornerstone of justice and honesty in Jonasville, many residents know him simply by the name Wolfe. Details are scarce regarding the early life of the enigmatic judge. His official town records are sealed and remain so except under express permission by the Sheriff. <br><br> Outside of Jonasville, Wolfe is the Prime Magistrate of New Fornaxia, the modern desert city, built upon the ruins of an old Fornaxian city. <br><br><a href="player_profile_pages/wolfe.html">View Full Bio</a></div>
+        
+            
+        </div>
+
+        <div class="characterCard newPlayer">
+            <div class="chr-name">Coming Soon!</div>
+            <img class="characterIcon grid-collapse" src="images/character_headshots/incoming.png">
+            
+            <div class="chr-bio"></div>
+        </div>
+
+        <div class="characterCard newPlayer">
+            <div class="chr-name">Coming Soon!</div>
+            <img class="characterIcon grid-collapse" src="images/character_headshots/incoming.png">
+            
+            <div class="chr-bio"></div>
+        </div>
+
+        </div>
+
+        <h2 style="color:black">Story Characters</h2>
+        <p style="color:black;text-align: center;padding:20px">These characters are created by server administration and often play pivotal roles in the general direction of each book.</p>
+        <div class="charactersList">
+            <div class="characterCard">
+                <div class="chr-name">Dakkar</div>
+                <div class="chr-player">???</div>
+                <img class="characterIcon grid-collapse" src="images/character_headshots/dakkar.png">
+                
+                <div class="chr-bio">A mysterious figure who's been known to make appearances near Jonasville. He claims the residents are responsible for his father’s death and he is plotting his revenge.</div>
+            
+                
+            </div>
+
+            <div class="characterCard newPlayer">
+                <div class="chr-name">Theo Sonborn</div>
+                <div class="chr-player">???</div>
+                <img class="characterIcon grid-collapse" src="images/character_headshots/theo.png">
+                
+                <div class="chr-bio">
+                    As the Technological Advisor for New Fornaxia, Theo has tirelessly worked to bring the city up to modern technological standards. Despite fierce opposition from the traditionalist population, Theo has vastly improved the quality, quantity, and efficiency of transportation and trade in New Fornaxia. Being on the Fornaxian Round Table, Theo is under direct supervision of the Prime Magistrate himself.
+                </div>
+            </div>
+        </div>
+        
+
+        <footer id="footer">
+            <p>&copy; Krakencraft 2021</p>
+
+            <div class="info-bar">
+                <div class="online-info">
+                    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    
+            <span data-playercounter-ip="72.9.158.30:25931">0</span> players online
+                </div>
+                <div class="ip-info">
+                    IP: 72.9.158.30:25931
+                </div>
+            </div>
+        </footer>
+
+        <script>            
+            if($(window).width() > 1024){
+
+                var coll = document.getElementsByClassName("grid-collapse");
+                var i;
+
+                for (i = 0; i < coll.length; i++) {
+                    coll[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var content = this.nextElementSibling;
+                    
+                    if (content.style.maxHeight){
+                        content.style.maxHeight = null;
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + "px";
+                    } 
+                });
+            }
+        }
+        </script>
+
+<script type="text/javascript">
+
+    /* Open when someone clicks on the span element */
+function openNav() {
+document.getElementById("nav").style.width = "100%";
+}
+
+/* Close when someone clicks on the "x" symbol inside the overlay */
+function closeNav() {
+document.getElementById("nav").style.width = "0%";
+
+}
+</script>
+    </body>
+</html>
