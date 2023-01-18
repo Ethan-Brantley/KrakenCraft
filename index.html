@@ -12,9 +12,13 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body onscroll="myFunction()">
-    <div>
-        <p id="depth-meter">0m below</p>
-        <img id="depth-icon" src="images/server_images/diver.png">
+    <div class="x">
+        <div class="lines">
+            <div class="diamond">
+                <p id="depth-meter">0m</p>
+            </div>
+        </div>
+        <!--<img id="depth-icon" src="images/server_images/diver.png">-->
     </div>
     <header>
         <a href="index.html"><img src="images/server_images/kraken_icon.png" id="logo"></a>
@@ -83,6 +87,8 @@
             var scrollDistance = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
 
             scrollDistance /= 5;
+
+            scrollDistance =    Math.trunc(scrollDistance);
 
             document.getElementById('depth-meter').innerHTML = scrollDistance + "m below";
         }
