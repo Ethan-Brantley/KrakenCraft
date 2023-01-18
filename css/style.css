@@ -25,6 +25,77 @@ body {
 
 }
 
+.bg-dark {
+
+background-color: black;
+color:#fff;
+
+}
+
+.left {
+
+
+
+}
+
+.right {
+
+
+
+}
+
+article {
+
+
+
+}
+
+section {
+
+    min-height: 100vh;
+
+}
+
+#lobby {
+
+    background-color: #000;
+
+}
+
+#story {
+
+    background-color: firebrick;
+
+}
+
+#arc {
+
+    background-color: #000;
+
+}
+
+#depth-icon {
+
+position: fixed;
+bottom: 8%;
+width: 35%;
+display: none;
+
+}
+
+#depth-meter {
+
+    position: fixed;
+    color: white;
+    padding: 5px 50px;
+    background-color: rgba(0, 0, 0, 0.479);
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+
+}
+
 /*
  *
  * Header Styles
@@ -137,9 +208,9 @@ header {
 
     text-align: center;
     position: absolute;
-    bottom: 10%;
-    left: 50%;
-    transform: translate(-50%);
+    top: 6.5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
 
 }
 
@@ -309,7 +380,7 @@ footer {
 
         top: 0%;
         right: 0%;
-        transform: translate(43%, 3%);
+        transform: translate(45%, 50%);
 
     }
 

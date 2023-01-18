@@ -11,7 +11,11 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
+<body onscroll="myFunction()">
+    <div>
+        <p id="depth-meter">0m below</p>
+        <img id="depth-icon" src="images/server_images/diver.png">
+    </div>
     <header>
         <a href="index.html"><img src="images/server_images/kraken_icon.png" id="logo"></a>
         <nav>
@@ -25,13 +29,13 @@
                     <a href="html/storymaster-hub.html" id="login"><i class="fa fa-user"></i></a>
                 </div>
             </div>
-            <div id="desktop-nav">
-                <a href="index.html">Home</a>
-                <a href="html/story.html">Story</a>
-                <a href="html/news.html">News</a>
-                <a href="html/storymaster-hub.html" id="login"><i class="fa fa-user"></i></a>
-            </div>
-        </nav>
+                <div id="desktop-nav">
+                    <a href="index.html">Home</a>
+                    <a href="html/story.html">Story</a>
+                    <a href="html/news.html">News</a>
+                    <a href="html/storymaster-hub.html" id="login"><i class="fa fa-user"></i></a>
+                </div>
+            </nav>
     </header>
     <main>
         <div id="banner">
@@ -45,9 +49,20 @@
                 <img src="images/banners/banner_gif.gif">
             </video>
         </div>
-        <section>
-            <h1>New Site Under Construction!</h1>
-        </section>
+        <article>
+            <section id="server" class="right bg-dark">
+                KrakenCraft is an exclusive Minecraft Server with a small player base dedicated to maintaining a fun, friendly community. Plugins are carefully curated by a team of passionate individuals to ensure intuitive gameplay and an experience faithful to the original game. KrakenCraft players are carefully vetted. The server contains a variety of worlds ranging from vanilla survival, worlds with an overarching storyline, to a growing number of popular team-based games (i.e. BedWars, VillageDefense, SheepQuest, and more).
+            </section>
+            <section id="lobby" class="left">
+                    
+            </section>
+            <section id="story" class="right">
+
+            </section>
+            <section id="arc" class="left">
+
+            </section>
+        </article>
     </main>
     <footer>
         <div id="login-info">
@@ -62,5 +77,15 @@
         </div>
     </footer>
     <script src="js/mobile-nav.js"></script>
+    <script>
+
+        function myFunction() {
+            var scrollDistance = window.pageYOffset || (document.documentElement || document.body.parentNode || document.body).scrollTop;
+
+            scrollDistance /= 5;
+
+            document.getElementById('depth-meter').innerHTML = scrollDistance + "m below";
+        }
+    </script>
 </body>
 </html>
