@@ -452,9 +452,11 @@ footer {
 
     #login {
 
-        top: 0%;
-        right: 0%;
-        transform: translate(45%, 50%);
+        position: absolute;
+        width: 50px;
+        top: 6.5%;
+        left: 92%;
+        transform: translate(50%, -55%);
 
     }
 
