@@ -32,6 +32,13 @@ color:#fff;
 
 }
 
+.bg-light {
+
+    background-color: #fff;
+    color:#000;
+    
+    }
+
 .parallax-bg {
 
     height: 80vh;
@@ -201,13 +208,25 @@ section p {
 
 }
 
+.civs {
+
+    width: 90%;
+
+}
+
 .card {
 
     margin: 15px;
     padding: 20px;
     background-color: white;
-    height: 50vh;
+    min-height: 50vh;
     text-align: center;
+
+}
+
+.slick-arrow {
+
+    background-color: black;
 
 }
 
@@ -399,6 +418,13 @@ main {
     left: 50%;
     top: 53%;
     transform: translate(-50%, 0%);
+    text-align: center;
+
+}
+
+h1 {
+
+    padding: 50px;
     text-align: center;
 
 }
