@@ -41,6 +41,14 @@ color:#fff;
 
 }
 
+.bg-img {
+
+    height: 80vh;
+    background-size: auto;
+    background-position: 65% 70%;
+
+}
+
 .left {
 
 
@@ -62,34 +70,38 @@ article {
 section {
 
     min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: top;
+    flex-direction: column;
 
 }
 
 section p {
 
     padding: 50px;
+    text-indent: 2em;
 
 }
 
 #lobby {
 
-    background-color: #000;
 
 }
 
 #story {
 
-    background-color: firebrick;
+    color: black;
+    background-color: white;
 
 }
 
 #arc {
 
-    background-color: #000;
 
 }
 
-.x {
+.depth-container {
 
     position: fixed;
     padding: 20px;
@@ -144,7 +156,7 @@ section p {
     top: 0px;
     bottom: 0px;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.479);
+    background-color: rgba(255, 255, 255, 0.762);
     transform: rotate(45deg);
     display: flex;
     align-items: center;
@@ -152,13 +164,6 @@ section p {
 
 }
 
-#depth-icon {
-
-position: fixed;
-bottom: 8%;
-width: 35%;
-
-}
 
 #depth-meter {
 
@@ -167,6 +172,42 @@ width: 35%;
     position: relative;
     text-align: center;
     transform: rotate(-45deg);
+
+}
+
+/*
+ *
+ * Section Transitions
+ *
+ */
+
+.section-transition-hex {
+
+    clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 90%, 65% 100%, 35% 100%, 0 90%, 0% 30%);
+    margin-bottom: 50px;
+
+}
+
+/*
+ *
+ *
+ *
+ */
+
+.news {
+
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.card {
+
+    margin: 15px;
+    padding: 20px;
+    background-color: white;
+    height: 50vh;
+    text-align: center;
 
 }
 
@@ -362,6 +403,12 @@ main {
 
 }
 
+h2 {
+
+    padding-top: 50px;
+
+}
+
 .scroll-cue {
 
     position: absolute;
@@ -469,6 +516,24 @@ footer {
     .lines::after, .lines::before {
 
         width: 42%;
+
+    }
+
+    /*
+     *
+     * Section Transitions
+     *
+     */
+
+    .section-transition-hex {
+
+        clip-path: polygon(0 0, 100% 0, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+    
+    }
+
+    section {
+
+        min-height: 50vh;
 
     }
 
