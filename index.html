@@ -7,44 +7,12 @@
     <title>KrakenCraft | Home</title>
     <link rel="icon" type="image/x-icon" href="images/server_images/kraken_icon.png">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
-    <script>$(document).ready(function(){
-        $('.news').slick({
-            centerMode: true,
-            arrows: true,
-centerPadding: '0px',
-slidesToShow: 3,
-responsive: [
-{
-  breakpoint: 768,
-  settings: {
-    arrows: false,
-    centerMode: true,
-    centerPadding: '100px',
-    slidesToShow: 1
-  }
-},
-{
-  breakpoint: 480,
-  settings: {
-    arrows: false,
-    centerMode: true,
-    centerPadding: '0px',
-    slidesToShow: 1
-  }
-}
-]
-        });
-      });</script>
 </head>
 <body onscroll="getDepth()">
     <div class="depth-container">
@@ -93,49 +61,60 @@ responsive: [
                 <br><br>If you’re reading this, you most likely have already received an invite from a current player. We’re excited to have you join us!</p>
             </section>
             <div class="parallax-bg" style="background-image:url(images/server_images/gamemode_ss/kns/kns_2_blur.png)">
-                <div class="news">
-                    <div class="card">
-                        <h2>Server Update (3/5/22)</h2>
-                        <p class="content-text" style="text-indent:0px;">Server has been updated to 1.18.2! Players' minecraft clients must be running 1.18.2 to join.</p>
+                <h1 style="color:white;">News</h1>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <h2>News 1</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque alias perferendis, vitae vero accusantium necessitatibus possimus deserunt officia quam in qui sapiente eveniet pariatur quod quas esse. Recusandae, nihil ad.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <h2>News 2</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque alias perferendis, vitae vero accusantium necessitatibus possimus deserunt officia quam in qui sapiente eveniet pariatur quod quas esse. Recusandae, nihil ad.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="card">
+                                <h2>News 3</h2>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque alias perferendis, vitae vero accusantium necessitatibus possimus deserunt officia quam in qui sapiente eveniet pariatur quod quas esse. Recusandae, nihil ad.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="card">
-                        <h2>News 1</h2>
-                        <p class="content-text" style="text-indent:0px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum minima, ea delectus laboriosam, sapiente voluptatum, dicta repudiandae ipsam architecto dolorem nulla. Harum hic nisi quaerat deleniti minus dolores quam voluptate!</p>
-                    </div>
-                    <div class="card">
-                        <h2>News 2</h2>
-                        <p class="content-text" style="text-indent:0px;">Other relevent news</p>
-                    </div>
-                    <div class="card">
-                        <h2>News 3</h2>
-                        <p class="content-text" style="text-indent:0px;">Other relevent news</p>
-                    </div>
-                    <div class="card">
-                        <h2>News 4</h2>
-                        <p class="content-text" style="text-indent:0px;">Other relevent news</p>
-                    </div>
+                    <div class="swiper-pagination"></div>
+            
+                    <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+                    <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
                 </div>
             </div>
-            <section id="lobby" class="left bg-dark">
-                 <img src="images/server_images/gamemode_ss/lobby/lobby_6.png">
-                 <h2>Lobby</h2>   
-                 <p>KrakenCraft Mining Corp™ has staked a claim on the rogue asteroid 1342-C. This asteroid is rich in the purple mineral Purpur-92 but during mining operations it was also discovered that this particular asteroid is also the spawning grounds of a majestic, yet dangerous creature, the Space Kraken. Fortunately measures were enacted to keep the Kraken contained and the mining operations can continue...For now.
+            <section id="lobby" class="bg-dark">
+                <div class="left">
+                    <img src="images/server_images/gamemode_ss/lobby/lobby_6.png">
+                    <h2>Lobby</h2>   
+                    <p>KrakenCraft Mining Corp™ has staked a claim on the rogue asteroid 1342-C. This asteroid is rich in the purple mineral Purpur-92 but during mining operations it was also discovered that this particular asteroid is also the spawning grounds of a majestic, yet dangerous creature, the Space Kraken. Fortunately measures were enacted to keep the Kraken contained and the mining operations can continue...For now.
                     <br><br>Coincidentally, this asteroid is also the location of many portals that lead to other worlds that are waiting to be explored.</p>
+                </div>
             </section>
-            <section id="story" class="right bg-dark">
-                <img src="images/server_images/gamemode_ss/kns/kns_1.png">
-                <h2>Narrative Survival</h2>
-                <p>A Minecraft world with a progressive <a href="html/story.html">storyline</a>. Each player creates their story as they play along. Their conversations, actions, and choices build their unique tale and influence the narrative as a whole. The story is divided up into chapters and books as major events develop. Without plotting out details, basic structure may be discussed ahead of time and external elements introduced to keep events interesting and moving along.</p>
+            <section id="story" class="bg-dark">
+                <div class="right">
+                    <img src="images/server_images/gamemode_ss/kns/kns_1.png">
+                    <h2>Narrative Survival</h2>
+                    <p>A Minecraft world with a progressive <a href="html/story.html">storyline</a>. Each player creates their story as they play along. Their conversations, actions, and choices build their unique tale and influence the narrative as a whole. The story is divided up into chapters and books as major events develop. Without plotting out details, basic structure may be discussed ahead of time and external elements introduced to keep events interesting and moving along.</p>
+                </div>
             </section>
-            <section id="arc" class="left bg-dark">
-                <img src="images/server_images/gamemode_ss/kes/kes_2.png">
-                <h2>The Cloud Project</h2>
-                <p>Classic Survival with a goal: In the cloud project, our collective goal is to build out the main island to include preservation habitats for every biome and mob in the game!</p>
+            <section id="arc" class="bg-dark">
+                <div class="left">
+                    <img src="images/server_images/gamemode_ss/kes/kes_2.png">
+                    <h2>The Cloud Project</h2>
+                    <p>Classic Survival with a goal: In the cloud project, our collective goal is to build out the main island to include preservation habitats for every biome and mob in the game!</p>
+                </div>
             </section>
         </article>
     </main>
     <footer style="padding-bottom: 200px;">
-        <img src="images/server_images/kraken_icon.png" style="width: 50%;margin: 50px;">
+        <img src="images/server_images/kraken_icon.png" id="footer-img">
         <div id="login-info">
             IP: 72.9.158.30:25931
         </div>
@@ -149,5 +128,39 @@ responsive: [
     </footer>
     <script src="js/mobile-nav.js"></script>
     <script src="js/depth-meter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper', {
+        // Optional parameters
+        loop: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 2.5,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+        },
+        });
+    </script>
 </body>
 </html>

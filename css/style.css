@@ -56,15 +56,9 @@ color:#fff;
 
 }
 
-.left {
+.left h2, .right h2 {
 
-
-
-}
-
-.right {
-
-
+    text-align: center;
 
 }
 
@@ -113,7 +107,7 @@ section p {
     position: fixed;
     padding: 20px;
     left: 50%;
-    width: 100%;
+    width: 90%;
     bottom: 10%;
     transform: translate(-50%);
     z-index: 1;
@@ -201,10 +195,21 @@ section p {
  *
  */
 
-.news {
+.swiper {
 
-    top: 50%;
-    transform: translateY(-50%);
+
+}
+
+.swiper-pagination-bullet {
+
+    background-color: black;
+
+}
+
+.fa-chevron-left, .fa-chevron-right {
+
+    color: #000;
+    font-size: 25px;
 
 }
 
@@ -217,16 +222,16 @@ section p {
 .card {
 
     margin: 15px;
-    padding: 20px;
+    padding: 35px;
     background-color: white;
     min-height: 50vh;
     text-align: center;
 
 }
 
-.slick-arrow {
+.card h2 {
 
-    background-color: black;
+    margin-bottom: 15px;
 
 }
 
@@ -472,6 +477,13 @@ footer {
 
 }
 
+#footer-img {
+
+    width: 50%;
+    margin: 50px;
+
+}
+
 /*
  *
  * Tablet Styling Rules
@@ -561,6 +573,35 @@ footer {
 
         min-height: 50vh;
 
+    }
+
+    .left, .right {
+        
+        display: block;
+        margin: auto;
+
+    }
+
+    .left img {
+
+        width: 25%;
+        margin: 50px;
+        float: left;
+
+    }
+
+    .right img {
+
+        width: 25%;
+        margin: 50px;
+        float: right;
+
+    }
+
+    #footer-img {
+
+        width: 20%;
+    
     }
 
 }
