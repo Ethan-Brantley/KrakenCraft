@@ -68,6 +68,15 @@ article {
 
 }
 
+aside {
+
+    background-color: black;
+    color: white;
+    padding: 25px;
+    width: 100%;
+
+}
+
 section {
 
     min-height: 100vh;
@@ -602,6 +611,16 @@ footer {
 
         width: 20%;
     
+    }
+    
+    aside {
+
+        margin-top: 150px;
+        width: 33%;
+        float: right;
+        background-color: white;
+        color: black;
+
     }
 
 }
